@@ -3,6 +3,11 @@
 {% block title %}{% endblock %}
 {% block style %} {% endblock %}
 {% block content %}
+<div class="actions">
+  <a class="action new" href="/">New</a>
+  <a class="action join" href="">Join</a>
+  <a class="action watch" href="">Watch</a>
+</div>
 <div class="board"></div>
 <script src="{% static 'js/main.js' %}" type="module"></script>
 {% endblock %}
